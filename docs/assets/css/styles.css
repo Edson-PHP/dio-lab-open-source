@@ -257,3 +257,23 @@ footer p {
     font-size: .9rem;
     color: var(--black);
 }
+
+/* Botão Up de Scroll */
+.up{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    transition: all .5s ease-in-out;
+    display: none;
+  }
+  
+  .up:hover{
+    background-color: #fff;
+    color: #000;
+  }
